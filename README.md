@@ -3,6 +3,8 @@
 Turns an AI serving workload like "serve a 70B model to 200 users" into GPU memory, GPUs, servers, speed per user, storage, network, power and racks.
 Every result is **indicative** and comes with a "Why this number" explanation. There are no prices anywhere.
 
+**Live app:** https://ai-sizing-calculator.streamlit.app
+
 ## Screenshots
 
 > Add these three images to a `docs/` folder (take them from the running app):
