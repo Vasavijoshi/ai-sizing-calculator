@@ -7,15 +7,17 @@ Every result is **indicative** and comes with a "Why this number" explanation. T
 
 ## Screenshots
 
-> Add these three images to a `docs/` folder (take them from the running app):
->
-> - `docs/screen-main.png`: the Results tab with the default inputs
-> - `docs/screen-compare.png`: the Compare GPUs tab
-> - `docs/screen-why.png`: the "Why this number" expander, opened
+**Results:** Llama 3 70B class, FP16, 200 users, 4,096 tokens on H100. Summary cards with a PASS/FAIL speed check, and the GPU memory chart (needed vs usable).
 
-![Main screen](docs/screen-main.png)
-![Compare GPUs](docs/screen-compare.png)
-![Why this number](docs/screen-why.png)
+![Results tab: summary cards and GPU memory chart](docs/screen-main.png)
+
+**Compare GPUs:** the same workload on H100 and H200, side by side.
+
+![Compare GPUs tab: H100 vs H200 table](docs/screen-compare.png)
+
+**Why this number:** every result explained step by step, with the formula, the real numbers filled in, and the assumptions used.
+
+![Why this number: step-by-step explanation](docs/screen-why.png)
 
 ## How to run (Windows PowerShell)
 
