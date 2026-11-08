@@ -1,0 +1,51 @@
+# Model presets. params_b = parameters in billions (FP16 sizes).
+# layers / kv_heads / head_size come from each model's config file.
+# Every `null` is a TODO.
+
+- name: Llama 3 70B class
+  params_b: 70
+  layers: 80        # TODO: confirm in the model's config file
+  kv_heads: 8       # TODO: confirm in the model's config file
+  head_size: 128    # TODO: confirm in the model's config file
+  source: null      # TODO: link to the model's config file
+  checked_on: null  # TODO: date you checked it
+
+- name: 7B class
+  params_b: 7
+  layers: null      # TODO
+  kv_heads: null    # TODO
+  head_size: null   # TODO
+  source: null      # TODO
+  checked_on: null  # TODO
+
+- name: 8B class
+  params_b: 8
+  layers: null      # TODO
+  kv_heads: null    # TODO
+  head_size: null   # TODO
+  source: null      # TODO
+  checked_on: null  # TODO
+
+- name: 13B class
+  params_b: 13
+  layers: null      # TODO
+  kv_heads: null    # TODO
+  head_size: null   # TODO
+  source: null      # TODO
+  checked_on: null  # TODO
+
+- name: 34B class
+  params_b: 34
+  layers: null      # TODO
+  kv_heads: null    # TODO
+  head_size: null   # TODO
+  source: null      # TODO
+  checked_on: null  # TODO
+
+- name: 405B class
+  params_b: 405
+  layers: null      # TODO
+  kv_heads: null    # TODO
+  head_size: null   # TODO
+  source: null      # TODO
+  checked_on: null  # TODO

@@ -1,0 +1,40 @@
+# GPU specs. Indicative only. No prices.
+# memory_gb is decimal GB (1 GB = 1e9 bytes).
+# Every `null` is a TODO: fill it from the official spec sheet.
+
+- name: H100 SXM
+  memory_gb: 80
+  bandwidth_gb_s: 3350
+  tdp_w: 700
+  source: https://www.morphllm.com/nvidia-h100
+  checked_on: 2026-11-08
+
+- name: H200 SXM
+  memory_gb: 141
+  bandwidth_gb_s: 4800
+  tdp_w: 700
+  source: https://www.morphllm.com/nvidia-h100  # TODO: confirm on NVIDIA's own page
+  checked_on: 2026-11-08
+
+- name: A100 80GB SXM
+  memory_gb: 80
+  bandwidth_gb_s: null  # TODO: fill from the spec sheet
+  tdp_w: 500
+  # Source covers memory_gb and tdp_w only; bandwidth_gb_s still needs its own source.
+  source: https://delltechnologies.com/asset/en-ca/products/servers/technical-support/poweredge-xe9680-spec-sheet.pdf
+  checked_on: 2026-11-08
+
+- name: MI300X
+  memory_gb: 192
+  bandwidth_gb_s: null  # TODO: fill from the spec sheet
+  tdp_w: 750
+  # Source covers memory_gb and tdp_w only; bandwidth_gb_s still needs its own source.
+  source: https://delltechnologies.com/asset/en-ca/products/servers/technical-support/poweredge-xe9680-spec-sheet.pdf
+  checked_on: 2026-11-08
+
+- name: B300
+  memory_gb: 270
+  bandwidth_gb_s: null  # TODO: fill from the spec sheet
+  tdp_w: 1100           # TODO: confirm this value on the spec sheet
+  source: null      # TODO: link to the spec sheet
+  checked_on: null  # TODO: date you checked it

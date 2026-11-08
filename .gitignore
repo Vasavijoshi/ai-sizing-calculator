@@ -1,0 +1,19 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Editor / Claude settings
+.claude/
+.vscode/
+.idea/
+
+# Generated PDF summaries
+*.pdf
+
+# Local Streamlit secrets (never commit these)
+.streamlit/secrets.toml

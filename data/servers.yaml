@@ -1,0 +1,8 @@
+# Server specs. Indicative only. No prices.
+
+- name: Dell PowerEdge XE9680
+  gpus_per_server: 8
+  form_factor_u: 6
+  cooling: air
+  source: https://delltechnologies.com/asset/en-ca/products/servers/technical-support/poweredge-xe9680-spec-sheet.pdf
+  checked_on: 2026-11-08

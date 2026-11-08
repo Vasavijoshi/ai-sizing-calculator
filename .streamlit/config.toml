@@ -1,0 +1,13 @@
+# Streamlit settings for this app.
+# The app title ("AI Infrastructure Sizing Calculator") is set in app.py with
+# st.set_page_config, because config.toml has no title setting.
+
+[theme]
+# Only the accent colour and font are set, so the app still follows
+# each viewer's own light or dark mode.
+primaryColor = "#4C78A8"
+font = "sans serif"
+
+[browser]
+# Don't send usage statistics to Streamlit.
+gatherUsageStats = false
